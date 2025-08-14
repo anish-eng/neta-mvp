@@ -1,0 +1,61 @@
+material_name,category_group
+Paperboard (uncoated),Paper/Fiber
+Paperboard (coated),Paper/Fiber
+Corrugated cardboard,Paper/Fiber
+Kraft paper,Paper/Fiber
+Molded fiber (bagasse),Paper/Fiber
+Paper label,Paper/Fiber
+Paper sleeve,Paper/Fiber
+Folding cartonboard,Paper/Fiber
+Paper bag,Paper/Fiber
+Paper wrap,Paper/Fiber
+Cup stock (paper),Paper/Fiber
+Paper lid,Paper/Fiber
+Paper straw,Paper/Fiber
+Grease-resistant paper,Paper/Fiber
+Paperboard with PE lining,Paper/Fiber
+PET (rigid),Rigid Plastic
+PETG (rigid),Rigid Plastic
+HDPE (rigid),Rigid Plastic
+LDPE (rigid),Rigid Plastic
+PP (rigid),Rigid Plastic
+PS (rigid),Rigid Plastic
+PVC (rigid),Rigid Plastic
+PLA (rigid),Rigid Plastic
+ABS (rigid),Rigid Plastic
+Polycarbonate (rigid),Rigid Plastic
+Acrylic/PMMA (rigid),Rigid Plastic
+Nylon/PA (rigid),Rigid Plastic
+PBT (rigid),Rigid Plastic
+POM/Acetal (rigid),Rigid Plastic
+Other plastic #7 (rigid),Rigid Plastic
+LDPE (film),Flexible Plastic
+LLDPE (film),Flexible Plastic
+HDPE (film),Flexible Plastic
+PP (film),Flexible Plastic
+PET (film),Flexible Plastic
+Multi-layer film (PET/PE),Flexible Plastic
+Multi-layer film (PP/PE),Flexible Plastic
+Metallized film,Flexible Plastic
+Shrink film,Flexible Plastic
+Stretch film,Flexible Plastic
+Flint glass (clear),Glass
+Amber glass,Glass
+Green glass,Glass
+Aluminum can,Metal
+Aluminum lid/closure,Metal
+Aluminum foil,Metal
+Steel (tinplate) can,Metal
+Steel lid/closure,Metal
+Metal crown cap,Metal
+Wire handle (metal),Metal
+Bio-based liner,Coatings/Liners
+PE lining (paper),Coatings/Liners
+Wax coating,Coatings/Liners
+Water-based coating,Coatings/Liners
+Hot-melt adhesive,Coatings/Liners
+Cork,Other
+Wood,Other
+Cotton twine,Other
+Silicone valve,Other
+Rubber band,Other

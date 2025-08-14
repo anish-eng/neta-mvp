@@ -1,0 +1,9 @@
+vendor_id,vendor_name,exempt
+VEN-101,North Valley Foods,False
+VEN-102,Cascade Packaging Co.,True
+VEN-103,Evergreen Naturals,False
+VEN-104,Rose City Bakers,False
+VEN-105,Coastal Beverages,True
+VEN-106,Mount Hood Organics,False
+VEN-107,Willamette Foods,False
+VEN-108,Pioneer Provisions,False

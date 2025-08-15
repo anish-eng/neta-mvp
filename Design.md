@@ -75,7 +75,7 @@ For part 2 when  we make the data dashboards the following data models are used-
   category:string 
 }
 
-/** A vendor row from vendors.csv . */
+
 **c. interface Vendor** {
   vendor_id: string;   
 
@@ -85,7 +85,7 @@ For part 2 when  we make the data dashboards the following data models are used-
   
 }
 
-/** A fee row from fees.csv (authoritative fee schedule). */
+
 **d. interface FeeRow** {
 
   material_name: string;   

@@ -44,7 +44,7 @@ c. Grand total fees combining all the vendors(in cents) displayed as a card
 For the first part of the project(preprocessing)-
 This is for the part when the user uploads the initial vendor file
 
-**a. interface VendorSubmissionRow **{
+**a. interface VendorSubmissionRow** {
 
   vendor_id: string;
   

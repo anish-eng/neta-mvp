@@ -24,17 +24,20 @@ Note: The user is not allowed to move to the next part of the project if the ini
 **Part 2- The Dashboard summaries** for the vendor dashboard showing the required statistics like-
 
 a. Top-10 SKU'S by fees with a filterable table and a supporting bar graph for enhanced visuals and accessibility
+
 b. Vendor-wise contributions of the total fees with a filterable table and also a supporting pie-chart for accessibility
+
 c. Grand total fees combining all the vendors(in cents) displayed as a card
 
 -------------------------------------------------------------
 
-****1.Data Flows- ****
+**1. Data Flows**-
 
 For the first part of the project(preprocessing)-
 This is for the part when the user uploads the initial vendor file
 
-**a. interface VendorSubmissionRow** {
+**a. interface VendorSubmissionRow **{
+
   vendor_id: string;
   
   sku_id: string;   
@@ -47,16 +50,16 @@ This is for the part when the user uploads the initial vendor file
   
   weight_unit: string;    
   
-  case_size?: number | string; 
+  case_size: number | string; 
   
-  quantity_basis?: string;     
+  quantity_basis: string;     
   
-  errors_warnings: string; 
+  errors_warnings:{ string; 
   
   __cellStatus?: string; 
   
   __cellNote?:   string  
-  
+  }
 }
 
 
@@ -84,6 +87,7 @@ For part 2 when  we make the data dashboards the following data models are used-
 
 /** A fee row from fees.csv (authoritative fee schedule). */
 **d. interface FeeRow** {
+
   material_name: string;   
   
   material_category:string;

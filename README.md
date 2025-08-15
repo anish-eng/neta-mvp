@@ -192,23 +192,26 @@ c. Only the first two files that the user uploads in the first page will be cons
 d. Only the first 200 rows of the initial uploaded field will be shown, combining both the files. 
 
 
-**Part b- **
+**Part B**
 
-1. a. I would implement the what-if simulation feature next, due to shortage of time I couldnt do it this time.
+**1.V2 Features**
+     a. I would implement the what-if simulation feature next, due to shortage of time I couldnt do it this time.
    
-b. AI-based algorithm for identifying the corrections for name errors. For example if the field name was Corrugated Cardboard, and the user types something close like 'hardboard' or something, the user should be suggested, did you mean 'corrugated cardboard'?
+     b. AI-based algorithm for identifying the corrections for name errors. For example if the field name was Corrugated Cardboard, and the user types something close like 'hardboard' or something, the user should be         suggested, did you mean 'corrugated cardboard'?
 
-3. Processing large files as the file size increases could cause performance issues. I would implement caching or some other mechanism to keep
-track of already seen/duplicate files so it doesnt have to be processed again. Also some fields are duplicated in the tables such as material category, making it prone to errors.
+**2. Scaling risk**- 
 
-**4. Time-taken-**
+       Processing large files as the file size increases could cause performance issues. I would implement caching or some other mechanism to keep
+       track of already seen/duplicate files so it doesnt have to be processed again. Also some fields are duplicated in the tables such as material category, making it prone to errors.
+
+**3. Time-taken-**
 
 **Validation-preprocessing-** 1.5 hours
 Dashboard display and join/groupby operations and refinement-2 hours
 
 **Documentation and deployment-** 0.5 hours-
 
-**Additional support **- I spent a lot of time trying to use external libraries for join/groupby operations
+**Additional Support**- I spent a lot of time trying to use external libraries for join/groupby operations
 however it was very error-prone and I spent long trying to figure it out. I later decided to implement it from scratch, but much later, this was 
 not the most efficient and I will improve on it. 
 

@@ -35,24 +35,33 @@ For the first part of the project(preprocessing)-
 This is for the part when the user uploads the initial vendor file
 
 **a. interface VendorSubmissionRow** {
-  vendor_id: string;           
-  sku_id: string;              
-  material_name: string;       
+  vendor_id: string;
+  
+  sku_id: string;   
+  
+  material_name: string;     
+  
   material_category: string;   
+  
   weight_value: number | string; 
-  weight_unit: string;         
-  case_size?: number | string; -? indicates that field could be empty
+  
+  weight_unit: string;    
+  
+  case_size?: number | string; 
+  
   quantity_basis?: string;     
-  // For the preview table only:
-  //error_warnings column- added by me to keep track of the error messages /warning message for each row of the file.
-  errors_warnings: string;     
+  
+  errors_warnings: string; 
+  
   __cellStatus?: string; 
-  __cellNote?:   string              
+  
+  __cellNote?:   string  
+  
 }
 
 
 For part 2 when  we make the data dashboards the following data models are used-
-//a product row from products.csv
+
 **b.interface Product** {
   sku_id: string;        
   
@@ -89,24 +98,35 @@ For part 2 when  we make the data dashboards the following data models are used-
 
 For part 1 of the project:
 
-**a. Reading files clearly**- Allowing file upload and reading of csv, xlsx files using separate functions. Assumption- Currently reads only first two files as input. Could be extended to read multiple files in the future. 
+**a. Reading files clearly**- Allowing file upload and reading of csv, xlsx files using separate functions.
+
+Assumption- Currently reads only first two files as input. Could be extended to read multiple files in the future. 
 
 **b**. **Validations**- Following validations are done
 
    ****** 1. Error Messages- ******
     Following checks are done and appropriate messages given
     a. vendor_id must be belonging to vendors.csv
+    
     b. sku_id must belong to products.csv
+    
     c. material_name must belong to materials.csv
+    
     d. material_category must belong to materials.csv
+    
     e. material_category corresponding to material_name must be correct
+    
     f. weight_value from the given file should not be missing.
+    
     g. if quantity_basis=case then case_size should not be 0
     
    ** **2. Warning messages-****
     a. If weight unit is ounce- conversion done implicly to grams and warning message given to user
+    
     b. If weight_value is greater than 300, warning is given- does not affect calculations.
+    
     c. If quantity_basis=case, weight_value is divided by case_size implicitly and unit is changed to g from case. Warning given to user.
+    
     d. if weight_unit is something close to g like gram, grams, etc then it is implicitly changed to g and warning is given.
 
 --------------------------------------------------------------------
@@ -149,8 +169,11 @@ d. Provided a go back button on the second page for more intuitive navigation.
 --------------------------------------------------------------------------
 **6. Assumptions-**
 a.  All fees shown is in cents and rounded to 3 decimal places  
+
 b. The EXEMPT field has not been used - as I wasnt clear on the usage
+
 c. Only the first two files that the user uploads in the first page will be considered.
+
 d. Only the first 200 rows of the initial uploaded field will be shown, combining both the files. 
 
 
@@ -165,11 +188,12 @@ track of already seen/duplicate files so it doesnt have to be processed again. A
 
 **4. Time-taken-**
 
-Validation-preprocessing- 1.5 hours
+**Validation-preprocessing-** 1.5 hours
 Dashboard display and join/groupby operations and refinement-2 hours
-Documentation and deployment- 0.5 hours-
 
-Additional support - I spent a lot of time trying to use external libraries for join/groupby operations
+**Documentation and deployment-** 0.5 hours-
+
+**Additional support **- I spent a lot of time trying to use external libraries for join/groupby operations
 however it was very error-prone and I spent long trying to figure it out. I later decided to implement it from scratch, but much later, this was 
 not the most efficient and I will improve on it. 
 

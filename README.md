@@ -183,6 +183,7 @@ d. Provided a go back button on the second page for more intuitive navigation.
 
 ----------------------------------------------------------
 **6. Assumptions-**
+
 a.  All fees shown is in cents and rounded to 3 decimal places  
 
 b. The EXEMPT field has not been used - as I wasnt clear on the usage

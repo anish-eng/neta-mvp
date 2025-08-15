@@ -119,7 +119,7 @@ Assumption- Currently reads only first two files as input. Could be extended to 
 
 **b**. **Validations**- Following validations are done
 
-   ****** 1. Error Messages- ******
+**   1. Error Messages- **
     Following checks are done and appropriate messages given
     a. vendor_id must be belonging to vendors.csv
     

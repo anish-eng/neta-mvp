@@ -66,6 +66,7 @@ This is for the part when the user uploads the initial vendor file
 For part 2 when  we make the data dashboards the following data models are used-
 
 **b.interface Product** {
+
   sku_id: string;        
   
   sku_name?: string; 
@@ -77,6 +78,7 @@ For part 2 when  we make the data dashboards the following data models are used-
 
 
 **c. interface Vendor** {
+
   vendor_id: string;   
 
   vendor_name?: string;

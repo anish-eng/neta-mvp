@@ -24,6 +24,7 @@ Navigate to the project folder neta-mvp within and run the command "npm start"
 **Overall Architecture-** 
 
 Project divided into two logical parts- 
+
 **Part 1- Data pre-processing and validation**(this involves checking the vendor's uploaded files, checking the correct units, sku_id, material_name, etc and giving them errors and warnings if there are any errors ).
 
 Note: The user is not allowed to move to the next part of the project if the initial file upload is not error-free.

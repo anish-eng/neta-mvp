@@ -1,4 +1,4 @@
-Name- Neta Engineering Take home Assignment MVP
+**Name- Neta Engineering Take home Assignment MVP**
 
 By-Anish
 
@@ -13,6 +13,8 @@ Other miscellaneous styling- **Vanilla CSS**
 Hosting- **Google firebase**
 
 Project link-** https://netamvp-8123.web.app/**
+
+
 **How to start-**-
 
 Navigate to the project folder neta-mvp within and run the command "npm start"

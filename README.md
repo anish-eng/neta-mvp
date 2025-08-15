@@ -5,9 +5,14 @@ By-Anish
 Main Tech Stack Used- React.js for the main website and the frontend flows
 
 For xlsx, csv file parsing on the frontend- **Papaparse**
+
 For rendering tables, frontend UI components- **@MUI-Material UI library**
+
 Other miscellaneous styling- **Vanilla CSS**
 
+Hosting- **Google firebase**
+
+Project link-** https://netamvp-8123.web.app/**
 **How to start-**-
 
 Navigate to the project folder neta-mvp within and run the command "npm start"

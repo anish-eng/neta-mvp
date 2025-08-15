@@ -168,8 +168,8 @@ Assumption- Currently reads only first two files as input. Could be extended to 
 
 
 ----------------------------------------------------------
-**
-**5. UX considerations****
+
+**5. UX considerations**
 
 a. I have two screens only instead of the recommended 3-4, to give the user flexbility to reupload the files incase of any error and to prevent 
 unnecessary back and forth across many url's and pages
@@ -177,6 +177,7 @@ unnecessary back and forth across many url's and pages
 b. I have provided an export to csv feature in the main page for convenience of the user. This allows the user to download the input file with the feedback of errors/warning and the conversions performed.
 
 c. Have provided pie chart and a bar graph for enhanced visualisation and accesibility.
+
 d. Provided a go back button on the second page for more intuitive navigation.
 
 
